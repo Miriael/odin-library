@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odin Library</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Odin Library</h1>
+  <div class="new-book-panel">
+    <button id="new-book-panel__open">Add new entry</button>
+    <div class="new-book-panel__form">
+      <form id="myform" name="myform">
+        <label for="booktitle">Book title</label>
+        <input type="text" id="booktitle" name="booktitle">
+
+        <label for="authorname">Author</label>
+        <input type="text" id="authorname" name="authorname">
+
+        <label for="pagecount">Page count</label>
+        <input type="text" id="pagecount" name="pagecount">
+
+        <label for="bookstatus">Current completion status</label>
+        <label for="read">Read</label>
+        <input type="radio" id="read" name="bookstatus" value="read">
+        <label for="unread">Unread</label>
+        <input type="radio" id="unread" name="bookstatus" value="unread" checked>
+        <button type="button" id="addbutton">Add book</button>
+      </form>
+    </div>
+  </div>
+  <div class="content">
+
+  </div>
+</body>
+</html>

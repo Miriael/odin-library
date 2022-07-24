@@ -1,0 +1,18 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1px;
+}
+
+.content > div {
+  border: 1px solid black;
+  text-align: center;
+}
+
+button {
+  margin: 5px;
+}
+
+.new-book-panel__form {
+  visibility: hidden;
+}
